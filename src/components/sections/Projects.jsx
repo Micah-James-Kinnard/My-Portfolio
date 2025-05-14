@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-
+import cardTriop from "../../assets/Card_Tri_OP_Image.png";
+import chessThatWorks from "../../assets/Chess_That_Works_Image.png";
 export const Projects = () => {
   return (
     <section
@@ -14,6 +15,11 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Card Tri-op</h3>
+              <img
+                src={cardTriop}
+                alt="Card Tri-op Preview"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <p className="text-gray-400 mb-4">
                 Trio game developped for FBLA, made with 2 of my close friends.
                 Focusing on the backend, used Javascript & some HTML to make.
@@ -49,6 +55,11 @@ export const Projects = () => {
             "
             >
               <h3 className="text-xl font-bold mb-2">Chess that works</h3>
+              <img
+                src={chessThatWorks}
+                alt="Card Tri-op Preview"
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
               <p className="text-gray-400 mb-4">
                 Chess game I originally started working on because I wanted to
                 make a game, turned into a school project once capstones came
