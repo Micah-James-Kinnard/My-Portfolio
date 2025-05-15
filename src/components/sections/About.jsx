@@ -12,7 +12,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
           </h2>
@@ -25,7 +25,10 @@ export const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">
+                  {" "}
+                  Frontend
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
@@ -41,7 +44,10 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">
+                  {" "}
+                  Backend
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
@@ -60,45 +66,47 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+              <h3 className="text-xl font-bold mb-4">
+                {" "}
+                🏫{" "}
+                <span className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">
+                  Education
+                </span>{" "}
+              </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> Primavera </strong> - High-School
-                  (2022-2025)
+                  <strong> Primavera </strong> - High-School (2022-2025)
                 </li>
-                <li>
-                  Relevant Coursework: Economics, Math, Science, History
-                </li>
+                <li>Relevant Coursework: Economics, Math, Science, History</li>
               </ul>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> Information Technology Specialist OD 306 HTML5 & JavaScript </strong> - West-MEC
-                  (2023-2025)
+                  <strong>
+                    {" "}
+                    Information Technology Specialist OD 306 HTML5 & JavaScript{" "}
+                  </strong>{" "}
+                  - West-MEC (2023-2025)
                 </li>
                 <li>
-                  Relevant Coursework: HTML, css, JavaScript, Website Development, Game Development
+                  Relevant Coursework: HTML, css, JavaScript, Website
+                  Development, Game Development
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4"> 💼 <span className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">Work Experience</span> </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
-                    N/A
-                  </h4>
-                  <p>
-                  </p>
+                  <h4 className="font-semibold">N/A</h4>
+                  <p></p>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold">
-                  </h4>
-                  <p>
-                  </p>
-          </div>
-        </div>
-        </div>
+                  <h4 className="font-semibold"></h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
