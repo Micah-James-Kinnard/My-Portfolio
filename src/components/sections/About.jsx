@@ -20,7 +20,7 @@ export const About = () => {
           <img
             src={myResume}
             alt="Resume Preview"
-            className="w-full h-48 object-cover rounded-lg mb-4"
+            className="w-full h-200 object-cover rounded-lg mb-4"
           />
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
