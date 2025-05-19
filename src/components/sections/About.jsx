@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import myResume from "../../assets/my_resume.png";
 
 export const About = () => {
   const frontendSkills = [
@@ -16,7 +17,11 @@ export const About = () => {
             {" "}
             About Me
           </h2>
-
+          <img
+            src={myResume}
+            alt="Resume Preview"
+            className="w-full h-48 object-cover rounded-lg mb-4"
+          />
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               Passionate developer with expertise in both building scalable web
@@ -94,7 +99,13 @@ export const About = () => {
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 <span className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">Work Experience</span> </h3>
+              <h3 className="text-xl font-bold mb-4">
+                {" "}
+                💼{" "}
+                <span className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">
+                  Work Experience
+                </span>{" "}
+              </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">N/A</h4>
