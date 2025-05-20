@@ -43,7 +43,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/Micah-James-Kinnard/FBLA-Trio-Project"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
@@ -89,7 +89,7 @@ export const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://github.com/Micah-James-Kinnard/chess_that_works"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-purple-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
